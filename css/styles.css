@@ -832,7 +832,6 @@ address {
     border: 1px solid #999;
     border-radius: 5px;
     resize: none;
-    margin-bottom: 10px;
     outline: none;
 }
 
@@ -882,6 +881,10 @@ address {
 .modal-check:checked+.check-test span {
     background-color: var(--accent-color);
     border: none;
+}
+
+.modal-check:focus+.check-test span {
+    border-color: var(--accent-color);
 }
 
 .modal-check:checked+.check-test .check-icon {
